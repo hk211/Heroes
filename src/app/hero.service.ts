@@ -14,4 +14,10 @@ export class HeroService {
             setTimeout(() => resolve(this.getHeroes()), 2000);
         });
     }
+
+    getHeroesNormal(): Promise<Hero[]> {
+        return new Promise(resolve => {
+            setTimeout(() => resolve(this.getHeroes()), 0);
+        });
+    }
 }
