@@ -1,0 +1,4 @@
+Where we are now:
+
+Routing
+https://angular.io/tutorial/toh-pt5#refactor-routes-to-a-routing-module
