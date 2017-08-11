@@ -74,7 +74,7 @@ export class HeroesComponent implements OnInit {
 
   getHeroes(): void {
     // Pass the callback function as an argument to the Promise's then() method:
-    this.heroService.getHeroesSlowly().then(heroes => this.heroes = heroes);
+    this.heroService.getHeroesNormal().then(heroes => this.heroes = heroes);
   }
 
   ngOnInit(): void {
