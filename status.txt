@@ -1,4 +1,5 @@
 Where we are now:
 
-Routing
-https://angular.io/tutorial/toh-pt5#refactor-routes-to-a-routing-module
+Routing is done, 
+
+Select a hero in the HeroesComponent: https://angular.io/tutorial/toh-pt5#select-a-hero-in-the-heroescomponent
